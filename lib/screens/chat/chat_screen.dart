@@ -1,59 +1,138 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../../providers/auth_provider.dart';
+import '../login/login_screen.dart';
+import 'chat_detail_screen.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final conversations = List.generate(
-      5,
-          (index) => {
-        "name": "Shop KTK - Chi nhánh ${index + 1}",
-        "lastMessage": "Cảm ơn bạn đã liên hệ, shop sẽ phản hồi sớm nhất.",
-        "time": "${9 + index}:30",
-      },
-    );
+    final authProvider = context.watch<AuthProvider>();
 
+    // =============================
+    // CHƯA ĐĂNG NHẬP
+    // =============================
+    if (!authProvider.isLoggedIn) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text("Tin nhắn"),
+          centerTitle: true,
+        ),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(
+                  Icons.chat_bubble_outline,
+                  size: 90,
+                  color: Colors.grey,
+                ),
+
+                const SizedBox(height: 20),
+
+                const Text(
+                  "Đăng nhập để trò chuyện với KTK Shop",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+
+                const SizedBox(height: 10),
+
+                const Text(
+                  "Bạn có thể hỏi về sản phẩm,\nđơn hàng hoặc chương trình khuyến mãi.",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.grey),
+                ),
+
+                const SizedBox(height: 30),
+
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => const LoginScreen(),
+                        ),
+                      );
+                    },
+                    child: const Text("Đăng nhập"),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
+    // =============================
+    // ĐÃ ĐĂNG NHẬP
+    // =============================
     return Scaffold(
       appBar: AppBar(
         title: const Text("Tin nhắn"),
         centerTitle: true,
       ),
-      body: conversations.isEmpty
-          ? const Center(child: Text("Chưa có cuộc trò chuyện nào"))
-          : ListView.separated(
-        itemCount: conversations.length,
-        separatorBuilder: (context, index) => const Divider(height: 1),
-        itemBuilder: (context, index) {
-          final chat = conversations[index];
-          return ListTile(
+      body: ListView(
+        children: [
+          ListTile(
             contentPadding: const EdgeInsets.symmetric(
-              horizontal: 15,
-              vertical: 6,
+              horizontal: 16,
+              vertical: 8,
             ),
+
             leading: const CircleAvatar(
-              radius: 24,
+              radius: 26,
               backgroundColor: Colors.blue,
-              child: Icon(Icons.store, color: Colors.white),
+              child: Icon(
+                Icons.store,
+                color: Colors.white,
+              ),
             ),
-            title: Text(
-              chat["name"] as String,
-              style: const TextStyle(fontWeight: FontWeight.w600),
+
+            title: const Text(
+              "KTK Shop",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+              ),
             ),
-            subtitle: Text(
-              chat["lastMessage"] as String,
+
+            subtitle: const Text(
+              "Xin chào 👋 KTK Shop có thể hỗ trợ gì cho bạn?",
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),
-            trailing: Text(
-              chat["time"] as String,
-              style: const TextStyle(fontSize: 12, color: Colors.grey),
+
+            trailing: const Text(
+              "Hôm nay",
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+              ),
             ),
+
             onTap: () {
-              // TODO: điều hướng vào màn hình chi tiết chat
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const ChatDetailScreen(),
+                ),
+              );
             },
-          );
-        },
+          ),
+
+          const Divider(height: 1),
+        ],
       ),
     );
   }

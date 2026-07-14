@@ -1,20 +1,24 @@
 import 'dart:convert';
-import 'package:http/http.dart' as http;
+import 'package:flutter/services.dart'; // Đọc file từ tài nguyên cục bộ
 import '../models/product.dart';
 
 class ApiService {
-  static const String url =
-      "https://my-json-server.typicode.com/dinhthien12/clothing-shop-app/products";
-
   static Future<List<Product>> getProducts() async {
-    final response = await http.get(Uri.parse(url));
+    try {
+      // 1. Đọc trực tiếp dữ liệu từ file db.json cục bộ
+      final String response = await rootBundle.loadString('db.json');
 
-    if (response.statusCode == 200) {
-      List data = jsonDecode(response.body);
+      // 2. Giải mã file JSON
+      final Map<String, dynamic> data = jsonDecode(response);
 
-      return data.map((e) => Product.fromJson(e)).toList();
-    } else {
-      throw Exception("Không lấy được dữ liệu");
+      // 3. Trích xuất danh sách sản phẩm từ khóa "products" trong file db.json của bạn
+      final List<dynamic> productsData = data['products'] ?? [];
+
+      // 4. Chuyển đổi thành List Object Product để giao diện hiển thị
+      return productsData.map((e) => Product.fromJson(e)).toList();
+    } catch (e) {
+      print("Lỗi đọc file db.json: $e");
+      throw Exception("Không thể tải sản phẩm offline: $e");
     }
   }
 }

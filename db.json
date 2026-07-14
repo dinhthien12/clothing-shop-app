@@ -1,0 +1,1755 @@
+{
+  "categories": [
+    {
+      "id": "ao",
+      "name": "Áo",
+      "icon": "checkroom"
+    },
+    {
+      "id": "quan",
+      "name": "Quần",
+      "icon": "dry_cleaning"
+    },
+    {
+      "id": "ao-khoac",
+      "name": "Áo khoác",
+      "icon": "ac_unit"
+    },
+    {
+      "id": "phu-kien",
+      "name": "Phụ kiện",
+      "icon": "sports"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Áo thun chạy bộ DryFit",
+      "price": 489000,
+      "image": "assets/images/anhspproject/ao/Áo thun chạy bộ DryFit/den.png",
+      "description": "Vải thấm hút mồ hôi nhanh, nhẹ và thoáng khí, phù hợp chạy bộ cường độ cao.",
+      "categoryId": "ao",
+
+      "sport": "Chạy bộ",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Cam",
+        "Trắng"
+      ],
+      "isFeatured": true,
+      "soldCount": 57,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/ao/Áo thun chạy bộ DryFit/cam.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo thun chạy bộ DryFit/trang.png"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo thun chạy bộ DryFit/den.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Áo tank top gym nam",
+      "price": 429000,
+      "image": "assets/images/anhspproject/ao/Áo tank top gym nam/den.png",
+      "description": "Form ôm nhẹ, vải co giãn 4 chiều, thoải mái khi tập tạ.",
+      "categoryId": "ao",
+      "sport": "Gym",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Đen",
+        "Be"
+      ],
+      "isFeatured": true,
+      "soldCount": 124,
+      "rating": 4.5,
+      "variants": [
+        { "color": "Be", "image": "assets/images/anhspproject/ao/Áo tank top gym nam/be.jpg" },
+        { "color": "Đen", "image": "assets/images/anhspproject/ao/Áo tank top gym nam/den.png" },
+        { "color": "Xanh rêu", "image": "assets/images/anhspproject/ao/Áo tank top gym nam/xanhreu.jpg" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Áo bra thể thao nữ",
+      "price": 99000,
+      "image": "assets/images/anhspproject/ao/Áo bra thể thao nữ/xanhreu.jpg",
+      "description": "Nâng đỡ tốt, chống xóc khi vận động mạnh, chất liệu không xuyên thấu.",
+      "variants": [
+        { "color": "Xanh lá", "image": "assets/images/anhspproject/ao/Áo bra thể thao nữ/xanhla.webp" },
+        { "color": "Trắng", "image": "assets/images/anhspproject/ao/Áo bra thể thao nữ/trang.webp" }
+      ],
+      "categoryId": "ao",
+      "sport": "Yoga",
+      "gender": "unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Trắng",
+        "Xanh lá"
+      ],
+      "isFeatured": false,
+      "soldCount": 147,
+      "rating": 4.8,
+      "variants": [
+        {
+          "color": "Xanh rêu",
+          "image": "assets/images/anhspproject/ao/Áo bra thể thao nữ/xanhreu.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo bra thể thao nữ/trang.webp"
+        },
+        {
+          "color": "Xanh lá",
+          "image": "assets/images/anhspproject/ao/Áo bra thể thao nữ/xanhla.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Áo polo thể thao nam",
+      "price": 89000,
+      "image": "assets/images/anhspproject/ao/Áo polo thể thao nam/xanhreu.webp",
+      "description": "Kiểu dáng lịch sự, phù hợp chơi golf hoặc mặc thường ngày.",
+      "categoryId": "ao",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Xanh navy",
+        "Be"
+      ],
+      "isFeatured": true,
+      "soldCount": 177,
+      "rating": 4.1,
+      "variants": [
+        { "color": "Xanh rêu", "image": "assets/images/anhspproject/ao/Áo polo thể thao nam/xanhreu.webp" },
+        { "color": "Xanh navy", "image": "assets/images/anhspproject/ao/Áo polo thể thao nam/xanhnavy.png" },
+        { "color": "Be", "image": "assets/images/anhspproject/ao/Áo polo thể thao nam/be.png" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Áo compression dài tay",
+      "price": 329000,
+      "image": "assets/images/anhspproject/ao/Áo compression dài tay/den.webp",
+      "description": "Ôm sát cơ thể, hỗ trợ cơ bắp, giữ ấm khi tập luyện ngoài trời.",
+      "categoryId": "ao",
+      "sport": "Gym",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Đỏ",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 27,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo compression dài tay/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo compression dài tay/trang.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Áo đấu bóng đá CLB",
+      "price": 429000,
+      "image": "assets/images/anhspproject/ao/Áo đấu bóng đá CLB/cam.jpg",
+      "description": "Chất liệu polyester nhẹ, thoáng khí, in số cầu thủ theo yêu cầu.",
+      "categoryId": "ao",
+      "sport": "Bóng đá",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Trắng",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 190,
+      "rating": 4.6,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/ao/Áo đấu bóng đá CLB/cam.jpg"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo đấu bóng đá CLB/den.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo đấu bóng đá CLB/trang.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Áo thun tập yoga nữ",
+      "price": 539000,
+      "image": "assets/images/anhspproject/ao/Áo thun tập yoga nữ/trang.webp",
+      "description": "Vải mềm mịn, co giãn tốt, không gây bí khi tập các động tác uốn dẻo.",
+      "categoryId": "ao",
+      "sport": "Yoga",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Xám",
+        "Xanh rêu"
+      ],
+      "isFeatured": false,
+      "soldCount": 45,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo thun tập yoga nữ/trang.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/ao/Áo thun tập yoga nữ/xam.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/ao/Áo thun tập yoga nữ/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Áo ba lỗ chạy bộ nữ",
+      "price": 149000,
+      "image": "assets/images/anhspproject/ao/Áo ba lỗ chạy bộ nữ/do.jpeg",
+      "description": "Thiết kế gọn nhẹ, thoáng lưng, phù hợp chạy đường dài.",
+      "categoryId": "ao",
+      "sport": "Chạy bộ",
+      "gender": "nu",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Be",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 88,
+      "rating": 4.4,
+      "variants": [
+        {
+          "color": "Be",
+          "image": "assets/images/anhspproject/ao/Áo ba lỗ chạy bộ nữ/be.png"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo ba lỗ chạy bộ nữ/den.png"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/ao/Áo ba lỗ chạy bộ nữ/do.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Áo thun tập gym unisex",
+      "price": 219000,
+      "image": "assets/images/anhspproject/ao/Áo thun tập gym unisex/den.jpg",
+      "description": "Cotton pha thun, form rộng rãi, thoải mái vận động.",
+      "categoryId": "ao",
+      "sport": "Gym",
+      "gender": "unisex",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Trắng",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 278,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/ao/Áo thun tập gym unisex/cam.jpg"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo thun tập gym unisex/den.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo thun tập gym unisex/trang.png"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Áo thủ môn bóng đá",
+      "price": 189000,
+      "image": "assets/images/anhspproject/ao/Áo thủ môn bóng đá/do.jpg",
+      "description": "Đệm lót vai và khuỷu tay, chất liệu bền chắc chịu va đập.",
+      "categoryId": "ao",
+      "sport": "Bóng đá",
+      "gender": "nu",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Cam",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 117,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/ao/Áo thủ môn bóng đá/cam.webp"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo thủ môn bóng đá/den.jpg"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/ao/Áo thủ môn bóng đá/do.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Áo thun raglan thể thao",
+      "price": 119000,
+      "image": "assets/images/anhspproject/ao/Áo thun raglan thể thao/den.webp",
+      "description": "Phối màu tay raglan năng động, chất liệu thấm hút mồ hôi.",
+      "categoryId": "ao",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Đỏ",
+        "Xám"
+      ],
+      "isFeatured": false,
+      "soldCount": 113,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo thun raglan thể thao/den.webp"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/ao/Áo thun raglan thể thao/do.jpg"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/ao/Áo thun raglan thể thao/xam.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Áo tank top nữ tập gym",
+      "price": 449000,
+      "image": "assets/images/anhspproject/ao/Áo tank top nữ tập gym/den.webp",
+      "description": "Dây lưng bản to, hỗ trợ tốt khi tập cardio và tạ.",
+      "categoryId": "ao",
+      "sport": "Gym",
+      "gender": "unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Xám",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 239,
+      "rating": 4.1,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo tank top nữ tập gym/den.webp"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/ao/Áo tank top nữ tập gym/do.jpg"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/ao/Áo tank top nữ tập gym/xam.webp"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Áo dài tay chống nắng chạy bộ",
+      "price": 169000,
+      "image": "assets/images/anhspproject/ao/Áo dài tay chống nắng chạy bộ/trang.webp",
+      "description": "Vải chống UV, mỏng nhẹ, phù hợp chạy bộ ngoài trời nắng.",
+      "categoryId": "ao",
+      "sport": "Chạy bộ",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Cam",
+        "Đỏ",
+        "Be"
+      ],
+      "isFeatured": false,
+      "soldCount": 303,
+      "rating": 4.4,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo dài tay chống nắng chạy bộ/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo dài tay chống nắng chạy bộ/trang.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/ao/Áo dài tay chống nắng chạy bộ/xam.webp"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Áo thun in họa tiết thể thao",
+      "price": 229000,
+      "image": "assets/images/anhspproject/ao/Áo thun in họa tiết thể thao/xanh.webp",
+      "description": "Thiết kế trẻ trung, chất liệu thấm hút mồ hôi tốt.",
+      "categoryId": "ao",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Be",
+        "Đen",
+        "Xanh rêu"
+      ],
+      "isFeatured": false,
+      "soldCount": 83,
+      "rating": 4.6,
+      "variants": [
+        {
+          "color": "Be",
+          "image": "assets/images/anhspproject/ao/Áo thun in họa tiết thể thao/be.webp"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/ao/Áo thun in họa tiết thể thao/den.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/ao/Áo thun in họa tiết thể thao/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Áo croptop tập yoga",
+      "price": 519000,
+      "image": "assets/images/anhspproject/ao/Áo croptop tập yoga/xam.jpeg",
+      "description": "Form ngắn năng động, vải 2 chiều co giãn thoải mái.",
+      "categoryId": "ao",
+      "sport": "Yoga",
+      "gender": "nu",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Trắng",
+        "Xám",
+        "Xanh rêu"
+      ],
+      "isFeatured": false,
+      "soldCount": 244,
+      "rating": 4.5,
+      "variants": [
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo croptop tập yoga/trang.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/ao/Áo croptop tập yoga/xam.jpeg"
+        },
+        {
+          "color": "Xanh rêu",
+          "image": "assets/images/anhspproject/ao/Áo croptop tập yoga/xanhreu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Áo thun cổ tròn tập gym nam",
+      "price": 439000,
+      "image": "assets/images/anhspproject/ao/Áo thun cổ tròn tập gym nam/cam.jpg",
+      "description": "Chất liệu cotton 100%, thấm hút mồ hôi, form basic dễ phối đồ.",
+      "categoryId": "ao",
+      "sport": "Gym",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Trắng",
+        "Đỏ",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 179,
+      "rating": 4.1,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/ao/Áo thun cổ tròn tập gym nam/cam.jpg"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/ao/Áo thun cổ tròn tập gym nam/do.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/ao/Áo thun cổ tròn tập gym nam/trang.webp"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Quần short chạy bộ nam",
+      "price": 359000,
+      "image": "assets/images/anhspproject/quan/Quần short chạy bộ nam/den.webp",
+      "description": "Vải nhẹ, lót trong thoáng khí, có túi zip đựng điện thoại.",
+      "categoryId": "quan",
+      "sport": "Chạy bộ",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Đen",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 139,
+      "rating": 5.0,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/quan/Quần short chạy bộ nam/cam.webp"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần short chạy bộ nam/den.webp"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/quan/Quần short chạy bộ nam/do.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Quần legging tập gym nữ",
+      "price": 199000,
+      "image": "assets/images/anhspproject/quan/Quần legging tập gym nữ/tim.webp",
+      "description": "Vải co giãn 4 chiều, ôm dáng, không xuyên thấu khi tập squat.",
+      "categoryId": "quan",
+      "sport": "Gym",
+      "gender": "unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Cam",
+        "Xanh rêu"
+      ],
+      "isFeatured": false,
+      "soldCount": 316,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần legging tập gym nữ/den.webp"
+        },
+        {
+          "color": "Tím",
+          "image": "assets/images/anhspproject/quan/Quần legging tập gym nữ/tim.webp"
+        },
+        {
+          "color": "Xanh dương",
+          "image": "assets/images/anhspproject/quan/Quần legging tập gym nữ/xanhduong.webp"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Quần jogger thể thao unisex",
+      "price": 319000,
+      "image": "assets/images/anhspproject/quan/Quần jogger thể thao unisex/xam.webp",
+      "description": "Bo gấu ống côn, chất liệu nỉ mềm, phù hợp mặc tập hoặc đi chơi.",
+      "categoryId": "quan",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Đen",
+        "Cam",
+        "Xanh navy"
+      ],
+      "isFeatured": false,
+      "soldCount": 62,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/quan/Quần jogger thể thao unisex/cam.jpg"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần jogger thể thao unisex/den.jpg"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần jogger thể thao unisex/xam.webp"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Quần đá bóng thi đấu",
+      "price": 279000,
+      "image": "assets/images/anhspproject/quan/Quần đá bóng thi đấu/xam.jpg",
+      "description": "Vải polyester co giãn, thoáng khí, có lưng thun điều chỉnh.",
+      "categoryId": "quan",
+      "sport": "Bóng đá",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xám",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 48,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần đá bóng thi đấu/xam.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Quần short gym nam",
+      "price": 129000,
+      "image": "assets/images/anhspproject/quan/Quần short gym nam/do.jpg",
+      "description": "Túi có khóa kéo, vải nhanh khô, phù hợp tập tạ và cardio.",
+      "categoryId": "quan",
+      "sport": "Gym",
+      "gender": "unisex",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xanh navy",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 286,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/quan/Quần short gym nam/do.jpg"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/quan/Quần short gym nam/xanh.png"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Quần dài tập yoga nữ",
+      "price": 419000,
+      "image": "assets/images/anhspproject/quan/Quần dài tập yoga nữ/xanhla.webp",
+      "description": "Vải mềm co giãn tốt, lưng cao ôm bụng, không lộ hình.",
+      "categoryId": "quan",
+      "sport": "Yoga",
+      "gender": "unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Xám",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 107,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần dài tập yoga nữ/xam.jpg"
+        },
+        {
+          "color": "Xanh lá",
+          "image": "assets/images/anhspproject/quan/Quần dài tập yoga nữ/xanhla.webp"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Quần short chạy bộ nữ",
+      "price": 339000,
+      "image": "assets/images/anhspproject/quan/Quần short chạy bộ nữ/trang.webp",
+      "description": "Lót trong chống cấn, vải nhẹ thoáng khí, phù hợp chạy đường dài.",
+      "categoryId": "quan",
+      "sport": "Chạy bộ",
+      "gender": "unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Đỏ",
+        "Xám",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 131,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/quan/Quần short chạy bộ nữ/do.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/quan/Quần short chạy bộ nữ/trang.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần short chạy bộ nữ/xam.webp"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Quần thể thao dài nam",
+      "price": 299000,
+      "image": "assets/images/anhspproject/quan/Quần thể thao dài nam/den.webp",
+      "description": "Chất liệu thun lạnh, co giãn tốt, phù hợp tập đa môn.",
+      "categoryId": "quan",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Xám",
+        "Cam",
+        "Trắng"
+      ],
+      "isFeatured": true,
+      "soldCount": 35,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần thể thao dài nam/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/quan/Quần thể thao dài nam/trang.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần thể thao dài nam/xam.webp"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Quần legging nam tập gym",
+      "price": 109000,
+      "image": "assets/images/anhspproject/quan/Quần legging nam tập gym/xam.jpg",
+      "description": "Ôm cơ, hỗ trợ vận động, vải thấm hút mồ hôi tốt.",
+      "categoryId": "quan",
+      "sport": "Gym",
+      "gender": "nu",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xám",
+        "Xanh navy"
+      ],
+      "isFeatured": false,
+      "soldCount": 114,
+      "rating": 4.5,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần legging nam tập gym/den.jpg"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần legging nam tập gym/xam.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Quần short bóng rổ",
+      "price": 549000,
+      "image": "assets/images/anhspproject/quan/Quần short bóng rổ/trang.jpg",
+      "description": "Ống rộng thoải mái, vải nhẹ, có túi hai bên.",
+      "categoryId": "quan",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Be",
+        "Trắng",
+        "Xám"
+      ],
+      "isFeatured": false,
+      "soldCount": 102,
+      "rating": 4.1,
+      "variants": [
+        {
+          "color": "Be",
+          "image": "assets/images/anhspproject/quan/Quần short bóng rổ/be.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/quan/Quần short bóng rổ/trang.jpg"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần short bóng rổ/xam.webp"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Quần yoga lửng nữ",
+      "price": 509000,
+      "image": "assets/images/anhspproject/quan/Quần yoga lửng nữ/xanh.jpg",
+      "description": "Form ôm vừa, dài đến bắp chân, phù hợp tập các động tác cao.",
+      "categoryId": "quan",
+      "sport": "Yoga",
+      "gender": "nu",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Xám"
+      ],
+      "isFeatured": false,
+      "soldCount": 32,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần yoga lửng nữ/xam.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/quan/Quần yoga lửng nữ/xanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Quần short compression",
+      "price": 499000,
+      "image": "assets/images/anhspproject/quan/Quần short compression/do.png",
+      "description": "Bó sát hỗ trợ cơ đùi, giảm mỏi cơ khi vận động mạnh.",
+      "categoryId": "quan",
+      "sport": "Gym",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 60,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/quan/Quần short compression/do.png"
+        },
+        {
+          "color": "Xanh rêu",
+          "image": "assets/images/anhspproject/quan/Quần short compression/xanhreu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Quần jogger nữ thể thao",
+      "price": 209000,
+      "image": "assets/images/anhspproject/quan/Quần jogger nữ thể thao/xanh.webp",
+      "description": "Lưng thun rút gọn, chất liệu nỉ nhẹ, form suông thoải mái.",
+      "categoryId": "quan",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Xanh navy",
+        "Xám"
+      ],
+      "isFeatured": true,
+      "soldCount": 241,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần jogger nữ thể thao/den.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/quan/Quần jogger nữ thể thao/xam.jpg"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/quan/Quần jogger nữ thể thao/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Quần đá banh trẻ em",
+      "price": 129000,
+      "image": "assets/images/anhspproject/quan/Quần đá banh trẻ em/den.webp",
+      "description": "Vải nhẹ co giãn, phù hợp cho các bé tập luyện bóng đá.",
+      "categoryId": "quan",
+      "sport": "Bóng đá",
+      "gender": "nu",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Trắng",
+        "Đen",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 12,
+      "rating": 5.0,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/quan/Quần đá banh trẻ em/den.webp"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/quan/Quần đá banh trẻ em/do.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/quan/Quần đá banh trẻ em/trang.webp"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Áo khoác gió chạy bộ",
+      "price": 239000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác gió chạy bộ/den.webp",
+      "description": "Chống gió nhẹ, cản nước cơ bản, có mũ trùm gọn.",
+      "categoryId": "ao-khoac",
+      "sport": "Chạy bộ",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Be",
+        "Xám"
+      ],
+      "isFeatured": true,
+      "soldCount": 210,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác gió chạy bộ/den.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác gió chạy bộ/xam.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Áo khoác windbreaker unisex",
+      "price": 189000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác windbreaker unisex/xanh.jpg",
+      "description": "Vải dù nhẹ, form rộng năng động, xếp gọn khi không dùng.",
+      "categoryId": "ao-khoac",
+      "sport": "Đa năng",
+      "gender": "nu",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Xanh navy"
+      ],
+      "isFeatured": false,
+      "soldCount": 237,
+      "rating": 4.3,
+      "variants": [
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác windbreaker unisex/xanh.jpg"
+        },
+        {
+          "color": "Xanh navy",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác windbreaker unisex/xanhnavy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Áo hoodie thể thao nam",
+      "price": 529000,
+      "image": "assets/images/anhspproject/aokhoac/Áo hoodie thể thao nam/trang.webp",
+      "description": "Nỉ bông ấm, có túi kangaroo, phù hợp khởi động trước khi tập.",
+      "categoryId": "ao-khoac",
+      "sport": "Gym",
+      "gender": "unisex",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Be",
+        "Trắng",
+        "Xanh rêu"
+      ],
+      "isFeatured": false,
+      "soldCount": 34,
+      "rating": 4.6,
+      "variants": [
+        {
+          "color": "Be",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie thể thao nam/be.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie thể thao nam/trang.webp"
+        },
+        {
+          "color": "Xanh rêu",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie thể thao nam/xanhreu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Áo khoác chống nắng nữ",
+      "price": 429000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác chống nắng nữ/den.jpeg",
+      "description": "Vải chống UV, mỏng nhẹ, phù hợp chạy bộ hoặc đạp xe ngoài trời.",
+      "categoryId": "ao-khoac",
+      "sport": "Chạy bộ",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Đỏ",
+        "Đen",
+        "Xanh rêu"
+      ],
+      "isFeatured": false,
+      "soldCount": 262,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác chống nắng nữ/den.jpeg"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác chống nắng nữ/do.jpg"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác chống nắng nữ/xanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Áo khoác bóng đá đồng phục",
+      "price": 419000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác bóng đá đồng phục/trang.webp",
+      "description": "Chất liệu polyester bền, thoáng khí, phù hợp mặc khởi động đội bóng.",
+      "categoryId": "ao-khoac",
+      "sport": "Bóng đá",
+      "gender": "nam",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Trắng",
+        "Xanh rêu"
+      ],
+      "isFeatured": true,
+      "soldCount": 309,
+      "rating": 4.1,
+      "variants": [
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác bóng đá đồng phục/trang.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác bóng đá đồng phục/xanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Áo khoác zip gym nam",
+      "price": 239000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác zip gym nam/den.webp",
+      "description": "Khóa kéo toàn thân, vải thun nhẹ co giãn, tiện khi tập tạ.",
+      "categoryId": "ao-khoac",
+      "sport": "Gym",
+      "gender": "nu",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Xám",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 46,
+      "rating": 4.4,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác zip gym nam/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác zip gym nam/trạngwebp.webp"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Áo khoác parka thể thao nhẹ",
+      "price": 459000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác parka thể thao nhẹ/xanh.webp",
+      "description": "Giữ ấm tốt, form rộng rãi, phù hợp mặc ngày lạnh.",
+      "categoryId": "ao-khoac",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Đỏ",
+        "Xanh navy",
+        "Trắng"
+      ],
+      "isFeatured": false,
+      "soldCount": 165,
+      "rating": 4.2,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác parka thể thao nhẹ/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác parka thể thao nhẹ/trang.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác parka thể thao nhẹ/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Áo hoodie nữ tập yoga",
+      "price": 339000,
+      "image": "assets/images/anhspproject/aokhoac/Áo hoodie nữ tập yoga/hong.webp",
+      "description": "Chất liệu mềm mịn, form crop năng động, giữ ấm vừa phải.",
+      "categoryId": "ao-khoac",
+      "sport": "Yoga",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Cam",
+        "Xám",
+        "Xanh navy"
+      ],
+      "isFeatured": false,
+      "soldCount": 42,
+      "rating": 4.0,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie nữ tập yoga/cam.jpg"
+        },
+        {
+          "color": "Hồng",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie nữ tập yoga/hong.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie nữ tập yoga/trang.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/aokhoac/Áo hoodie nữ tập yoga/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Áo khoác thể thao 2 lớp",
+      "price": 479000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác thể thao 2 lớp/trang.jpg",
+      "description": "Lớp ngoài chống nước nhẹ, lớp trong giữ ấm, phù hợp thời tiết chuyển mùa.",
+      "categoryId": "ao-khoac",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Trắng",
+        "Cam"
+      ],
+      "isFeatured": true,
+      "soldCount": 140,
+      "rating": 4.1,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác thể thao 2 lớp/den.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác thể thao 2 lớp/trang.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Áo khoác dù có mũ unisex",
+      "price": 309000,
+      "image": "assets/images/anhspproject/aokhoac/Áo khoác dù có mũ unisex/den.webp",
+      "description": "Vải dù mỏng nhẹ, gấp gọn bỏ túi, tiện mang theo khi chạy bộ.",
+      "categoryId": "ao-khoac",
+      "sport": "Chạy bộ",
+      "gender": "nam",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Đỏ",
+        "Xanh navy"
+      ],
+      "isFeatured": true,
+      "soldCount": 283,
+      "rating": 4.7,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác dù có mũ unisex/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/aokhoac/Áo khoác dù có mũ unisex/trang.webp"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Túi trống thể thao đa năng",
+      "price": 479000,
+      "image": "assets/images/anhspproject/phukien/Túi trống thể thao đa năng/cam.webp",
+      "description": "Dung tích lớn, có ngăn riêng đựng giày, quai đeo chắc chắn.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [],
+      "colors": [
+        "Đen",
+        "Đỏ",
+        "Cam"
+      ],
+      "isFeatured": false,
+      "soldCount": 58,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/phukien/Túi trống thể thao đa năng/cam.webp"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Túi trống thể thao đa năng/den.webp"
+        },
+        {
+          "color": "Đỏ",
+          "image": "assets/images/anhspproject/phukien/Túi trống thể thao đa năng/do.webp"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Băng đô thể thao thấm mồ hôi",
+      "price": 169000,
+      "image": "assets/images/anhspproject/phukien/Băng đô thể thao thấm mồ hôi/trang.webp",
+      "description": "Chất liệu cotton co giãn, giữ tóc gọn khi vận động mạnh.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "nu",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Trắng",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 144,
+      "rating": 4.3,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Băng đô thể thao thấm mồ hôi/den.jpg"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/phukien/Băng đô thể thao thấm mồ hôi/trang.webp"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Tất thể thao cổ ngắn (bộ 3 đôi)",
+      "price": 219000,
+      "image": "assets/images/anhspproject/phukien/Tất thể thao cổ ngắn (bộ 3 đôi)/den.webp",
+      "description": "Vải cotton pha, thấm hút tốt, êm chân khi chạy bộ.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Xám",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 140,
+      "rating": 4.5,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Tất thể thao cổ ngắn (bộ 3 đôi)/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/phukien/Tất thể thao cổ ngắn (bộ 3 đôi)/trang.webp"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Găng tay tập gym",
+      "price": 249000,
+      "image": "assets/images/anhspproject/phukien/Găng tay tập gym/den.jpg",
+      "description": "Đệm lòng bàn tay chống trơn trượt, bảo vệ khi tập tạ.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Xanh rêu",
+        "Be"
+      ],
+      "isFeatured": false,
+      "soldCount": 6,
+      "rating": 4.3,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Găng tay tập gym/den.jpg"
+        },
+        {
+          "color": "Hồng",
+          "image": "assets/images/anhspproject/phukien/Găng tay tập gym/HONG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Dây đai lưng tập gym",
+      "price": 169000,
+      "image": "assets/images/anhspproject/phukien/Dây đai lưng tập gym/den.webp",
+      "description": "Hỗ trợ cột sống khi nâng tạ nặng, khóa dán chắc chắn.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Xanh navy",
+        "Đỏ"
+      ],
+      "isFeatured": false,
+      "soldCount": 223,
+      "rating": 4.6,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Dây đai lưng tập gym/den.webp"
+        },
+        {
+          "color": "Hồng",
+          "image": "assets/images/anhspproject/phukien/Dây đai lưng tập gym/hong.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Bình nước thể thao 750ml",
+      "price": 159000,
+      "image": "assets/images/anhspproject/phukien/Bình nước thể thao 750ml/cam.webp",
+      "description": "Chất liệu nhựa an toàn, có vạch chia dung tích, nắp chống rò rỉ.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [],
+      "colors": [
+        "Xanh navy",
+        "Cam",
+        "Đen"
+      ],
+      "isFeatured": false,
+      "soldCount": 303,
+      "rating": 4.6,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/phukien/Bình nước thể thao 750ml/cam.webp"
+        },
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Bình nước thể thao 750ml/den.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/phukien/Bình nước thể thao 750ml/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Khăn thể thao thấm mồ hôi",
+      "price": 359000,
+      "image": "assets/images/anhspproject/phukien/Khăn thể thao thấm mồ hôi/hong.webp",
+      "description": "Vải microfiber thấm hút nhanh, khô nhanh, gọn nhẹ dễ mang theo.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Cam",
+        "Xanh navy"
+      ],
+      "isFeatured": false,
+      "soldCount": 25,
+      "rating": 4.9,
+      "variants": [
+        {
+          "color": "Cam",
+          "image": "assets/images/anhspproject/phukien/Khăn thể thao thấm mồ hôi/cam.webp"
+        },
+        {
+          "color": "Hồng",
+          "image": "assets/images/anhspproject/phukien/Khăn thể thao thấm mồ hôi/hong.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/phukien/Khăn thể thao thấm mồ hôi/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Mũ lưỡi trai thể thao",
+      "price": 219000,
+      "image": "assets/images/anhspproject/phukien/Mũ lưỡi trai thể thao/xanh.webp",
+      "description": "Chất liệu nhẹ, chống nắng, có lỗ thoáng khí phía sau.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [],
+      "colors": [
+        "Trắng",
+        "Xanh navy"
+      ],
+      "isFeatured": false,
+      "soldCount": 213,
+      "rating": 5.0,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Mũ lưỡi trai thể thao/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/phukien/Mũ lưỡi trai thể thao/trang.jpg"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/phukien/Mũ lưỡi trai thể thao/xanh.webp"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Dây nhảy thể dục",
+      "price": 179000,
+      "image": "assets/images/anhspproject/phukien/Dây nhảy thể dục/den.webp",
+      "description": "Dây có vòng bi trơn, tay cầm chống trượt, điều chỉnh độ dài.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "nam",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Xanh navy",
+        "Xám"
+      ],
+      "isFeatured": true,
+      "soldCount": 175,
+      "rating": 4.8,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Dây nhảy thể dục/den.webp"
+        },
+        {
+          "color": "Trắng",
+          "image": "assets/images/anhspproject/phukien/Dây nhảy thể dục/trang.webp"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/phukien/Dây nhảy thể dục/xanh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Băng bảo vệ đầu gối tập gym",
+      "price": 349000,
+      "image": "assets/images/anhspproject/phukien/Băng bảo vệ đầu gối tập gym/hong.webp",
+      "description": "Đệm dày bảo vệ khớp gối, co giãn ôm chân, phù hợp squat/deadlift.",
+      "categoryId": "phu-kien",
+      "sport": "Đa năng",
+      "gender": "unisex",
+      "sizes": [
+        "Freesize"
+      ],
+      "colors": [
+        "Xám",
+        "Xanh navy",
+        "Trắng"
+      ],
+      "isFeatured": false,
+      "soldCount": 60,
+      "rating": 4.4,
+      "variants": [
+        {
+          "color": "Đen",
+          "image": "assets/images/anhspproject/phukien/Băng bảo vệ đầu gối tập gym/den.webp"
+        },
+        {
+          "color": "Hồng",
+          "image": "assets/images/anhspproject/phukien/Băng bảo vệ đầu gối tập gym/hong.webp"
+        },
+        {
+          "color": "Xám",
+          "image": "assets/images/anhspproject/phukien/Băng bảo vệ đầu gối tập gym/xam.jpg"
+        },
+        {
+          "color": "Xanh",
+          "image": "assets/images/anhspproject/phukien/Băng bảo vệ đầu gối tập gym/xanh.jpg"
+        }
+      ]
+    }
+  ]
+}

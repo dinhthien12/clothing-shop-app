@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../screens/chat/chat_screen.dart';
-import '../../screens/favorite/favorite_screen.dart';
-import '../../screens/profile/profile_screen.dart';
+import '../../screens/account/account_screen.dart';
 
 class HomeBottomNav extends StatefulWidget {
   const HomeBottomNav({super.key});
@@ -25,12 +24,11 @@ class _HomeBottomNavState extends State<HomeBottomNav> {
       case 1:
         screen = const ChatScreen();
         break;
+
       case 2:
-        screen = const FavoriteScreen();
+        screen = const AccountScreen();
         break;
-      case 3:
-        screen = const ProfileScreen();
-        break;
+
       default:
         return;
     }
@@ -53,7 +51,6 @@ class _HomeBottomNavState extends State<HomeBottomNav> {
       items: const [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: "Trang chủ"),
         BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline), label: "Chat"),
-        BottomNavigationBarItem(icon: Icon(Icons.favorite_border), label: "Yêu thích"),
         BottomNavigationBarItem(icon: Icon(Icons.person_outline), label: "Tài khoản"),
       ],
     );

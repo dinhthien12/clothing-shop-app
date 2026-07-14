@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../screens/cart/cart_screen.dart';
+import '../../screens/search/search_screen.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeAppBar({super.key});
@@ -12,13 +13,21 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: SafeArea(
         child: Row(
           children: [
-            // Logo
-            const CircleAvatar(
-              radius: 22,
-              backgroundColor: Colors.blue,
-              child: Icon(Icons.store, color: Colors.white),
+            Container(
+              width: 46,
+              height: 46,
+              decoration: const BoxDecoration(
+                color: Colors.black,
+                shape: BoxShape.circle,
+              ),
+              child: const Padding(
+                padding: EdgeInsets.all(6),
+                child: Image(
+                  image: AssetImage('assets/images/logo.png'),
+                  fit: BoxFit.contain,
+                ),
+              ),
             ),
-
             const SizedBox(width: 10),
 
             // Tên Shop
@@ -32,7 +41,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
 
             const Spacer(),
 
-            // Ô tìm kiếm
+            // Ô tìm kiếm -> bấm vào sẽ mở màn hình tìm kiếm sản phẩm
             Expanded(
               flex: 4,
               child: Container(
@@ -41,8 +50,17 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                   color: Colors.grey.shade200,
                   borderRadius: BorderRadius.circular(30),
                 ),
-                child: const TextField(
-                  decoration: InputDecoration(
+                child: TextField(
+                  readOnly: true,
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const SearchScreen(),
+                      ),
+                    );
+                  },
+                  decoration: const InputDecoration(
                     border: InputBorder.none,
                     hintText: "Tìm sản phẩm",
                     prefixIcon: Icon(Icons.search),
